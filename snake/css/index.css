@@ -1,0 +1,75 @@
+.content{
+    width: 640px;
+    height: 640px;
+    margin: 100px auto;
+    position: relative;
+}
+.btn{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* 图层 */
+    z-index: 2;
+}
+.btn button{
+    background: none;
+    border: none;
+    background-size: 100% 100%;
+
+    cursor: pointer;
+    outline: none;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#statistics{
+    color: white;
+    margin-top: 220px;
+    margin-left: 280px;
+    display: none;
+}
+.startBtn button{
+    width: 200px;
+    height: 120px;
+    background-image: url(../images/start1.png);
+    margin-left: -100px;
+    margin-top: -60px;
+}
+.pauseBtn{
+    display: none;
+}
+.pauseBtn button{
+    width: 94px;
+    height: 140px;
+    background-image: url(../images/start2.png);
+    margin-left: -47px;
+    margin-top: -70px;
+}
+/* snakeWrap */
+#snakeWrap{
+    width: 600px;
+    height: 600px;
+    background-color: #225675;
+    border: 20px solid #7dd9ff;
+    position: relative;
+
+}
+.snakeHead{
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.snakeBody{
+    background-color: #9ddbb1;
+    border-radius: 50%;
+}
+.food{
+    background-image: url(../images/food1.png);
+    background-size: cover;
+}
+.select{
+    background-color: pink;
+}
